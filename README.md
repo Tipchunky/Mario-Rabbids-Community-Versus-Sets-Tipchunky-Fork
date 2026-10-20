@@ -23,7 +23,7 @@ You can then download the files you want to change from there, instead of using 
 
 Read the [Community Versus Sets Wiki](https://github.com/gggga00/Mario-Rabbids-Community-Versus-Sets/wiki) for instructions on how to add/modify versus sets.
 
-The wiki also mentiones some guidelines and practices to follow when contributing, so your changes work properly with the rest of the mod.
+The wiki also mentiones some guidelines and practices to follow when contributing.
 
 
 ### 3. Submit your changes
