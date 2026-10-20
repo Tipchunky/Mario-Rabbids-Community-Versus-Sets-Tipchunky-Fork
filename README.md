@@ -45,7 +45,7 @@ That's it!
 
 ### 1. Download the moria folder
 
-You can download the entire repository including the `moria` folder, by clicking **Code** and then **Download ZIP**.
+You can download the entire repository including the `moria` folder, by clicking on **Code** and then **Download ZIP**.
 
 ### 2. Prepare the files for reimporting
 
