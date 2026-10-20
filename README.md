@@ -9,7 +9,7 @@ You don't need any programming knowledge to contribute. If you have ideas for ne
 
 You can help by creating new versus sets, improving existing ones, or even by simply sharing your ideas with the community.
 
-Here is how you can create your own:
+Here is how you can create your own sets:
 
 ### 1. Make your own copy of the repository
 
