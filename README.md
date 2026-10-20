@@ -9,28 +9,24 @@ You don't need any programming knowledge to contribute. If you have ideas for ne
 
 You can help by creating new versus sets, improving existing ones, or even by simply sharing your ideas with the community.
 
-### 1. Get the files you want to modify
+Here is how you can make your own:
 
-Download the files you want to work on from this repository rather than using files extracted from your own game.
-
-This helps ensure that your changes are compatible with the rest of the mod.
-
-### 2. Make your own copy of the repository
+### 1. Make your own copy of the repository
 
 On this GitHub page, click **Fork**.
 
 A 'Fork' is your own copy of the project on GitHub. It lets you make changes without affecting the original project.
 
-You can then download the files you want to change and modify them with any text editor.
+You can then download the files you want to change from there, instead of using your own extraction. This is to ensure that your changes are compatible with the rest of the mod. You can now modify them with any text editor.
 
-### 3. Follow the contribution guide
+### 2. Follow the contribution guide
 
 Read the [Community Versus Sets Wiki](https://github.com/gggga00/Mario-Rabbids-Community-Versus-Sets/wiki) for instructions on how to add/modify versus sets.
 
 The wiki also mentiones some guidelines and practices to follow when contributing, so your changes work properly with the rest of the mod.
 
 
-### 4. Submit your changes
+### 3. Submit your changes
 
 When you're happy with your changes, submit a **pull request**.
 
