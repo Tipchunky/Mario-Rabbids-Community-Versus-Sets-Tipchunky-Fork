@@ -43,9 +43,9 @@ That's it!
 
 **Before you start:** You will need your own copy of Mario + Rabbids Kingdom Battle, the game's extracted files, and either a modded Switch or an emulator.
 
-### 1. Download the mod files
+### 1. Download the moria folder
 
-Download the `moria` folder from this repository.
+You can download the entire repository including the `moria` folder, by clicking **Code** and then **Download ZIP**.
 
 ### 2. Prepare the files for reimporting
 
