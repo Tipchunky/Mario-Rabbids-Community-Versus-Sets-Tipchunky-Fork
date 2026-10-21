@@ -15,7 +15,7 @@ Here is how you can create your own sets:
 
 On this GitHub page, click **Fork**.
 
-A 'Fork' is your own copy of the project on GitHub. It lets you make changes without affecting the original project.
+A *Fork* is your own copy of the project on GitHub. It lets you make changes without affecting the original project.
 
 You can then download the files you want to change from there, instead of using your own extraction. This is to ensure that your changes are compatible with the rest of the mod. You can now modify them with any text editor.
 
@@ -28,15 +28,16 @@ The wiki also mentiones some guidelines and practices to follow when contributin
 
 ### 3. Submit your changes
 
-When you're happy with your changes, submit a **pull request**.
+When you're happy with your changes, submit a **pull request**: [Submitting a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request)
 
 A pull request is a way to propose your changes to the original project. It lets us review your work before we include it in the mod.
 
-Here is the official guide on how to create a pull request:
-[How to create a pull request on GitHub](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request)
-
 That's it!
 
+----------
+You can reuse your fork for future contributions by syncing it to get the latest changes: [Syncing a fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/syncing-a-fork)
+
+Sometimes, syncing can result in merge conflicts if both repositories have changes to the same parts of a file. If this happens and you just want to get the latest version, you don't need to keep changes from your fork and can just choose the version from this repository instead.
 
 
 ## How to install the mod
