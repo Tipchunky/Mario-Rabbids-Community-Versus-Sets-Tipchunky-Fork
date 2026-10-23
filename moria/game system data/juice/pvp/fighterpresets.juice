@@ -4296,7 +4296,7 @@ FighterPreset PVP_DM_Yoshi_Preset6 < uid=D7AA725759D62DFA0000000008000006 >
 		SkillState PVP_DM_SKL_Yoshi_LuckyShotCooldown
 		{
 			mySkillBonusID < uid=8297F7EA59D65C3A000000C1AD846D91 > = PVP_DM_SKL_Yoshi_LuckyShotCooldown
-			mySkillLevel 2
+			mySkillLevel 4
 		}
 		SkillState PVP_DM_SKL_Yoshi_LuckyShotRadius
 		{
