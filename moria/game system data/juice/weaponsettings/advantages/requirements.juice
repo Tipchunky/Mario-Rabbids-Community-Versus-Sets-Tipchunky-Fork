@@ -270,6 +270,24 @@ RequirementList REQ_Boss4
 	}
 }
 
+RequirementList REQ_Sentry
+{
+    myOperator OR
+    myRequirements
+    {
+        FighterArchetypeRequirement Archetype
+        {
+            myArchetypeToCheck pvp_dm_luigi_deployableweapons
+        }
+        FighterArchetypeRequirement Archetype
+        {
+            myArchetypeToCheck pvp_dm_rabbidspeach_deployableweapons
+        }
+    }
+}
+
+
+
 string "Misc Requirement" ""
 
 RequirementList REQ_Null

@@ -391,3 +391,15 @@ InfoCardSlotComparisonList ComparisonList_PVP_DM_Yoshi_Preset3
 	ComparisonValue SECONDARYTECHNIQUE Better
 }
 
+InfoCardSlotComparisonList ComparisonList_PVP_DM_Yoshi_Apocalyptic
+{
+	ComparisonValue HP Better
+	ComparisonValue DASH Same
+	ComparisonValue TEAMJUMP Worst
+	ComparisonValue PRIMARYWEAPON Same
+	ComparisonValue SECONDARYWEAPON Same
+	ComparisonValue PRIMARYWEAPONSIDEEFFECT Better
+	ComparisonValue SECONDARYWEAPONSIDEEFFECT Better
+	ComparisonValue PRIMARYTECHNIQUE Worst
+	ComparisonValue SECONDARYTECHNIQUE Better
+}

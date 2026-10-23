@@ -24,6 +24,12 @@ MoveAbilitiesParameters PVP_DM_MoveAbilitiesParameters < uid=8297F7EA59D4E258000
 	myCoverDamage 25.0
 }
 
+MoveAbilitiesParameters PVP_DM_MoveAbilitiesParameters_Apocalyptic < uid=8297F7EA59D4E258000003EC79103CE2 > : PVP_DM_MoveAbilitiesParameters
+{
+    myQuakeSideEffectType BURN
+	myCoverDamage 100.0
+}
+
 ListMoveAbilitiesSettings PVP_DM_MoveAbilities_Yoshi
 {
 	MoveAbilitiesSettings MoveAbilities_Preset1 < uid=8297F7EA59D4E18A000003E454AA618F >
@@ -46,6 +52,13 @@ ListMoveAbilitiesSettings PVP_DM_MoveAbilities_Yoshi
 		mySpecializationType TeamJump
 		myDescriptor = Descriptor_Earthquake
 		myMoveAbilitiesParameters < uid=8297F7EA59DC8747000000102C8EBA6A > = PVP_DM_MoveAbilitiesParameters
+	}
+    MoveAbilitiesSettings MoveAbilities_Preset4 < uid=8297F7EA59DC87470000000FF9FD4298 >
+	{
+		myMoveAbilityCategory QuakeJump
+		mySpecializationType TeamJump
+		myDescriptor = Descriptor_Earthquake
+		myMoveAbilitiesParameters < uid=8297F7EA59DC8747000000102C8EBA6A > = PVP_DM_MoveAbilitiesParameters_Apocalyptic
 	}
 }
 

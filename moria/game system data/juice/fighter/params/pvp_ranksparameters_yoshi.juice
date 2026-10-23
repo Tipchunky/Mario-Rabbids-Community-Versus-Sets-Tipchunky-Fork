@@ -15,10 +15,17 @@ RanksParameters PVP_DM_Rank_Preset3 < uid=8297F7EA59D4E13B000003E190FBCCC2 >
 	myHealthPoints 180
 }
 
+RanksParameters PVP_DM_Rank_Preset_Apocalyptic < uid=8297F7EA59D4E13B000003E190FBCCC2 >
+{
+	myHealthPoints 190
+	myImmune_SideEffect_Burn TRUE
+}
+
 Ranks PVP_DM_Ranks_Yoshi
 {
 	RanksParameters PVP_DM_Rank_Preset1 < uid=8297F7EA59D4E09F000003DA99A7CBBB > = PVP_DM_Rank_Preset1
 	RanksParameters PVP_DM_Rank_Preset2 < uid=8297F7EA59D4E13B000003E2AD9C6476 > = PVP_DM_Rank_Preset2
 	RanksParameters PVP_DM_Rank_Preset3 < uid=8297F7EA59D4E13B000003E36B31CF06 > = PVP_DM_Rank_Preset3
+    RanksParameters PVP_DM_Rank_Preset4 < uid=8297F7EA59D4E13B000003E36B31CF06 > = PVP_DM_Rank_Preset_Apocalyptic
 }
 

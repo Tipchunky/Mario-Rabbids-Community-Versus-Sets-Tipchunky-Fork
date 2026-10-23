@@ -4316,6 +4316,75 @@ FighterPreset PVP_DM_Yoshi_Preset6 < uid=D7AA725759D62DFA0000000008000006 >
 	}
 }
 
+FighterPreset PVP_DM_Yoshi_Preset_Apocalyptic < uid=D7AA725759D62DFA0000000008000007 >
+{
+	myDescriptor = Descriptor_PVP_DM_Yoshi_Preset_Apocalyptic
+	myFighterSetup < uid=D6AA725759D62DFA00000039B5DDDB96 >
+	{
+		myRank Rank3
+		myMoveAbility Core4
+		myPrimaryWeaponAvailable TRUE
+		myPrimaryWeaponId Weapon4
+		mySecondaryWeaponAvailable TRUE
+		mySecondaryWeaponId Weapon4
+		myPrimaryTechniqueAvailable TRUE
+		mySecondaryTechniqueAvailable TRUE
+	}
+    mySkillTreeSetup
+	{
+		SkillState PVP_DM_SKL_Yoshi_DashDamage
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000BBC4F462D4 > = PVP_DM_SKL_Yoshi_DashDamage
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_Yoshi_TeamJumpCleanse
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000BCB66031A2 > = PVP_DM_SKL_Yoshi_TeamJumpCleanse
+			mySkillLevel 0
+		}
+		SkillState PVP_DM_SKL_Yoshi_EarthquakeJumpRadius
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000BD1173333E > = PVP_DM_SKL_Yoshi_EarthquakeJumpRadius
+			mySkillLevel 1
+		}
+		SkillState PVP_DM_SKL_Yoshi_EarthquakeJumpDamage
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000BEF539A0B5 > = PVP_DM_SKL_Yoshi_EarthquakeJumpDamage
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_Yoshi_ReactDamage
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000BF92BC9E04 > = PVP_DM_SKL_Yoshi_ReactDamage
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Yoshi_ReactCooldown
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000C025E640D0 > = PVP_DM_SKL_Yoshi_ReactCooldown
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Yoshi_LuckyShotCooldown
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000C1AD846D91 > = PVP_DM_SKL_Yoshi_LuckyShotCooldown
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Yoshi_LuckyShotRadius
+		{
+			mySkillBonusID < uid=8297F7EA59D65C3A000000C295804C9C > = PVP_DM_SKL_Yoshi_LuckyShotRadius
+			mySkillLevel 2
+		}
+		SkillState SecondaryWeaponUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74EC40000003EBEAC7CB1 > = PVP_DM_SKL_Yoshi_Rocket
+			mySkillLevel 0
+		}
+		SkillState SecondaryTechniqueUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74EC40000003FDAF0C469 > = PVP_DM_SKL_Yoshi_LuckyShot
+			mySkillLevel 0
+		}
+	}
+}
+
 GameModeFighterPresets GameMode_Deathmatch
 {
 	myGameMode PVP_DeathMatch
@@ -4402,6 +4471,7 @@ GameModeFighterPresets GameMode_Deathmatch
 			FighterPreset Preset4 < uid=D6AA725759D62DFA0000004C5DE5C113 > = PVP_DM_Yoshi_Preset4
 			FighterPreset Preset5 < uid=D6AA725759D62DFA0000004D1A5DB746 > = PVP_DM_Yoshi_Preset5
 			FighterPreset Preset6 < uid=D6AA725759D62DFA0000004E130322AE > = PVP_DM_Yoshi_Preset6
+            FighterPreset Preset7 < uid=D6AA725759D62DFA0000004E130322AE > = PVP_DM_Yoshi_Preset_Apocalyptic
 		}
 	}
 }

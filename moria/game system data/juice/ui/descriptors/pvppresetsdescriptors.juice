@@ -406,3 +406,10 @@ PresetDescriptor Descriptor_PVP_DM_Yoshi_Preset6
 	myInfoCardLayout = Infocard_Layout_Preset
 	myInfoCardSlotComparison = ComparisonList_PVP_DM_Yoshi_Preset3
 }
+
+PresetDescriptor Descriptor_PVP_DM_Yoshi_Preset_Apocalyptic
+{
+	myName "contextComment = \"Descriptor_PVP_DM_Yoshi_Preset_Apocalyptic\", description = \"Descriptor_PVP_DM_Yoshi_Preset_Apocalyptic\", enabled = true, guid = #D7AA725759E8BCDD0000000008000007, lineVersion = 0, maxLength = 47, text = \"Descriptor_PVP_DM_Yoshi_Preset_Apocalyptic\""
+	myInfoCardLayout = Infocard_Layout_Preset
+	myInfoCardSlotComparison = ComparisonList_PVP_DM_Yoshi_Apocalyptic
+}

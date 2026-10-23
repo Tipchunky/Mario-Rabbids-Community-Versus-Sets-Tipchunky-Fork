@@ -406,6 +406,13 @@ Skill PVP_DM_SKL_Yoshi_ReactDamage < uid=8297F7EA59D4E5BD0000048EB9687DD5 >
 				myPrimary_TechniqueDamage 1.4
 			}
 		}
+        Step Preset4
+		{
+			myBonus
+			{
+				myPrimary_TechniqueDamage 0.5
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_Yoshi_ReactDamage
 	{
@@ -437,6 +444,12 @@ Skill PVP_DM_SKL_Yoshi_ReactCooldown < uid=8297F7EA59D4E5BD00000490E5F9F180 >
 			myBonus
 			{
 				myPrimary_TechniqueCooldown 2
+			}
+        Step Preset4
+		{
+			myBonus
+			{
+				myPrimary_TechniqueCooldown 1
 			}
 		}
 	}
@@ -470,6 +483,13 @@ Skill PVP_DM_SKL_Yoshi_LuckyShotCooldown < uid=8297F7EA59D4E5BD00000492D9ED4B77 
 			myBonus
 			{
 				mySecondary_TechniqueCooldown 1
+			}
+		}
+        Step Preset4
+		{
+			myBonus
+			{
+				mySecondary_TechniqueCooldown 2
 			}
 		}
 	}

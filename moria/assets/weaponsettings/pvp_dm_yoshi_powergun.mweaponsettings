@@ -95,5 +95,33 @@ ListWeaponSettings PVP_DM_Yoshi_Powerguns
 		myBulletParameters < uid=8297F7EA59D64D3B0000006149640DDD > = BulletParameters_Powergun
 		myVersionInfoConditions < uid=8297F7EA59D64D3B00000062F0568114 > = VER_Retail
 	}
+    WeaponSettings Yoshi_Powergun_Preset4
+	{
+		myGraphObject "moria/graph objects/weapon/wpn_powergun_yoshi_12.mgraphobject"
+		myEquipmentDescriptor = Descriptor_Yoshi_Powergun_11
+		myWeaponCategory PowerGun
+		myUnlockState Owned
+		myUnlockDescriptor = NULLREFERENCE
+		myPrice
+		{
+			myCurrencyAmount 0
+		}
+		myAttackLevels = AttackLevels_Powergun
+		myAttackParameters < uid=8297F7EA59D64D3B0000005FDAB6BFF9 > : AttackParameters_PowerGun
+		{
+			myDamageBase 40
+			myDamageMin -30
+			myDamageMax 30
+			myHitChance 80.0
+			mySuperChance 20.0
+			mySuperDamageMod 0.2
+		}
+		myBonus1 = SideEffect_Burn
+		myBonus2 = NULLREFERENCE
+		myBonus3 = NULLREFERENCE
+		myAdvantage < uid=8297F7EA59D64D3B000000604FCE8D8D > = ADV_Sentry_DamageMod
+		myBulletParameters < uid=8297F7EA59D64D3B0000006149640DDD > = BulletParameters_Powergun
+		myVersionInfoConditions < uid=8297F7EA59D64D3B00000062F0568114 > = VER_Retail
+	}
 }
 

@@ -23,6 +23,11 @@ AdvantageBonus BONUS_DamageMod_2
 	myDamageMod 0.1
 }
 
+AdvantageBonus BONUS_DamageMod_3
+{
+	myDamageMod 5.0
+}
+
 AdvantageBonus BONUS_SuperDamageMod_1
 {
 	mySuperDamageMod 0.2
@@ -288,6 +293,13 @@ Advantage ADV_Boss4_DamageMod < uid=C3C0648358A347320000001835B3A915 >
 {
 	myRequirement = REQ_Boss4
 	myBonus = BONUS_DamageMod_1
+	myDescriptor = Descriptor_ADV_Boss4_DamageMod
+}
+
+Advantage ADV_Sentry_DamageMod < uid=C3C0648358A347320000001835B3A915 >
+{
+	myRequirement = REQ_Sentry
+	myBonus = BONUS_DamageMod_3
 	myDescriptor = Descriptor_ADV_Boss4_DamageMod
 }
 
