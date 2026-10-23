@@ -25,7 +25,7 @@ AdvantageBonus BONUS_DamageMod_2
 
 AdvantageBonus BONUS_DamageMod_3
 {
-	myDamageMod 5.0
+	myDamageMod 11.0
 }
 
 AdvantageBonus BONUS_SuperDamageMod_1
