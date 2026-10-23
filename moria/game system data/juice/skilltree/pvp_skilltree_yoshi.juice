@@ -445,6 +445,7 @@ Skill PVP_DM_SKL_Yoshi_ReactCooldown < uid=8297F7EA59D4E5BD00000490E5F9F180 >
 			{
 				myPrimary_TechniqueCooldown 2
 			}
+		}
         Step Preset4
 		{
 			myBonus
