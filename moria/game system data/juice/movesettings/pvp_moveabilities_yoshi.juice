@@ -26,7 +26,7 @@ MoveAbilitiesParameters PVP_DM_MoveAbilitiesParameters < uid=8297F7EA59D4E258000
 
 MoveAbilitiesParameters PVP_DM_MoveAbilitiesParameters_Apocalyptic < uid=8297F7EA59D4E258000003EC79103CE2 > : PVP_DM_MoveAbilitiesParameters
 {
-    myQuakeSideEffectType BURN
+    myQuakeSideEffectType Burn
 	myCoverDamage 100.0
 }
 
