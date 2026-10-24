@@ -98,5 +98,34 @@ ListWeaponSettings PVP_DM_Mario_MeleeWeapons
 		myBulletParameters < uid=8297F7EA59D62C99000000E6F67014F8 > = BulletParameters_MeleeWeapon
 		myVersionInfoConditions < uid=8297F7EA59D62C99000000E7EBA78C17 > = VER_Retail
 	}
+	WeaponSettings Mario_MeleeWeapon_Sticky
+	{
+		myGraphObject "moria/graph objects/weapon/wpn_melee_mario_04.mgraphobject"
+		myEquipmentDescriptor = Descriptor_Mario_Melee_2
+		myWeaponCategory MeleeWeapon
+		myUnlockState Owned
+		myUnlockDescriptor = NULLREFERENCE
+		myPrice
+		{
+			myCurrencyAmount 0
+		}
+		myAttackLevels = AttackLevels_MeleeWeapon
+		myAttackParameters < uid=D7AA725759E8BCDD0000000001000007 > : AttackParameters_MeleeWeapon
+		{
+			myDamageBase 60
+			myDamageMin -5
+			myDamageMax 5
+			myCoverDamage 0.0
+			myHitChance 70.0
+			mySuperChance 30.0
+			mySuperDamageMod 0.2
+		}
+		myBonus1 = SideEffect_Honey
+		myBonus2 = NULLREFERENCE
+		myBonus3 = NULLREFERENCE
+		myAdvantage < uid=8297F7EA59D62C99000000E59901F953 > = NULLREFERENCE
+		myBulletParameters < uid=8297F7EA59D62C99000000E6F67014F8 > = BulletParameters_MeleeWeapon
+		myVersionInfoConditions < uid=8297F7EA59D62C99000000E7EBA78C17 > = VER_Retail
+	}
 }
 

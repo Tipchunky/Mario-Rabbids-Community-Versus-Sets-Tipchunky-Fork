@@ -492,6 +492,13 @@ Skill PVP_DM_SKL_Mario_ReactCooldown < uid=D6AA725759CD2BFB0000014398084097 >
 				myPrimary_TechniqueCooldown 3
 			}
 		}
+		Step Preset4
+		{
+			myBonus
+			{
+				myPrimary_TechniqueCooldown 2
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_Mario_ReactCooldown
 	{
@@ -523,6 +530,13 @@ Skill PVP_DM_SKL_Mario_EmpowerCooldown < uid=D6AA725759CD2BFB00000145EF40BB01 >
 			myBonus
 			{
 				mySecondary_TechniqueCooldown 3
+			}
+		}
+		Step Preset4
+		{
+			myBonus
+			{
+				mySecondary_TechniqueCooldown 1
 			}
 		}
 	}
