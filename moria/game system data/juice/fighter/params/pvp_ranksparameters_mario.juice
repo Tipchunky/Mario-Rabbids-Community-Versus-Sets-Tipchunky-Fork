@@ -30,11 +30,6 @@ RanksParameters PVP_DM_Rank_Preset6 < uid=D6AA725759CD16650000003E8F8801FE >
 	myHealthPoints 170
 }
 
-RanksParameters PVP_DM_Rank_Sticky < uid=D7AA725759E8BCDD0000000001000007 >
-{
-	myHealthPoints 170
-}
-
 Ranks PVP_DM_Ranks_Mario
 {
 	RanksParameters PVP_DM_Rank_Preset1 < uid=D6AA725759CD16650000003F5A494AE9 > = PVP_DM_Rank_Preset1
@@ -43,7 +38,6 @@ Ranks PVP_DM_Ranks_Mario
 	RanksParameters PVP_DM_Rank_Preset4 < uid=D6AA725759CD16650000003F5A494AE9 > = PVP_DM_Rank_Preset4
 	RanksParameters PVP_DM_Rank_Preset5 < uid=D6AA725759CD166500000040C80153C3 > = PVP_DM_Rank_Preset5
 	RanksParameters PVP_DM_Rank_Preset6 < uid=D6AA725759CD166500000041394BFF64 > = PVP_DM_Rank_Preset6
-	RanksParameters PVP_DM_Rank_Preset7 < uid=D7AA725759E8BCDD0000000001000007 > = PVP_DM_Rank_Sticky
 }
 
 Ranks PVP_CTF_Ranks_Mario
