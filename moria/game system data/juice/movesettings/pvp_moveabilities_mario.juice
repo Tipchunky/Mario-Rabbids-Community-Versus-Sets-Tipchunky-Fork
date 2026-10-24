@@ -51,12 +51,5 @@ ListMoveAbilitiesSettings PVP_DM_MoveAbilities_Mario
 		myDescriptor = Descriptor_Stomp
 		myMoveAbilitiesParameters < uid=D6AA725759CD16D100000055F89E875F > = PVP_DM_MoveAbilitiesParameters
 	}
-	MoveAbilitiesSettings MoveAbilities_Sticky < uid=D7AA725759E8BCDD0000000001000007 >
-	{
-		myMoveAbilityCategory Stomp
-		mySpecializationType TeamJump
-		myDescriptor = Descriptor_Stomp
-		myMoveAbilitiesParameters < uid=D6AA725759CD16D100000055F89E875F > = PVP_DM_MoveAbilitiesParameters
-	}
 }
 
