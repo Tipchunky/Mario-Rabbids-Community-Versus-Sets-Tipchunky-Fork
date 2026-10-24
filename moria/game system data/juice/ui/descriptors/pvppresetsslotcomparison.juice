@@ -39,6 +39,19 @@ InfoCardSlotComparisonList ComparisonList_PVP_DM_Mario_Preset3
 	ComparisonValue SECONDARYTECHNIQUE Same
 }
 
+InfoCardSlotComparisonList ComparisonList_PVP_DM_Mario_Sticky
+{
+	ComparisonValue HP Same
+	ComparisonValue DASH Same
+	ComparisonValue TEAMJUMP Better
+	ComparisonValue PRIMARYWEAPON Same
+	ComparisonValue SECONDARYWEAPON Same
+	ComparisonValue PRIMARYWEAPONSIDEEFFECT Same
+	ComparisonValue SECONDARYWEAPONSIDEEFFECT Worse
+	ComparisonValue PRIMARYTECHNIQUE Better
+	ComparisonValue SECONDARYTECHNIQUE Better
+}
+
 InfoCardSlotComparisonList ComparisonList_PVP_DM_RabbidsLuigi_Preset1
 {
 	ComparisonValue HP Same

@@ -43,6 +43,13 @@ PresetDescriptor Descriptor_PVP_DM_Mario_Preset6
 	myInfoCardSlotComparison = ComparisonList_PVP_DM_Mario_Preset3
 }
 
+PresetDescriptor Descriptor_PVP_DM_Mario_Sticky
+{
+	myName "contextComment = \"Descriptor_PVP_DM_Mario_Sticky_Name\", description = \"Descriptor_PVP_DM_Mario_Sticky_Name\", enabled = true, guid = #D7AA725759E8BCDD0000000001000007, lineVersion = 0, maxLength = 47, text = \"Descriptor_PVP_DM_Mario_Sticky_Name\""
+	myInfoCardLayout = Infocard_Layout_Preset
+	myInfoCardSlotComparison = ComparisonList_PVP_DM_Mario_Sticky
+}
+
 PresetDescriptor Descriptor_PVP_DM_RabbidsLuigi_Preset1
 {
 	myName "contextComment = \"Descriptor_PVP_DM_RabbidsLuigi_Preset1_Name\", description = \"Descriptor_PVP_DM_RabbidsLuigi_Preset1_Name\", enabled = true, guid = #D6AA725759E8BCEA000000349BBC5B46, lineVersion = 0, maxLength = 47, text = \"Descriptor_PVP_DM_RabbidsLuigi_Preset1_Name\""

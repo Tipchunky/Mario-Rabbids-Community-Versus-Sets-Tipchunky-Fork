@@ -483,6 +483,85 @@ FighterPreset PVP_DM_Mario_Preset6 < uid=D7AA725759D62DFA0000000001000006 >
 	}
 }
 
+FighterPreset PVP_DM_Mario_Sticky < uid=D7AA725759D62DFA0000000001000007 >
+{
+	myDescriptor = Descriptor_PVP_DM_Mario_Sticky
+	myFighterSetup < uid=D7AA725759E8BCDD0000000001000007 >
+	{
+		myRank Rank6
+		myMoveAbility Core4
+		myPrimaryWeaponAvailable TRUE
+		myPrimaryWeaponId Weapon4
+		mySecondaryWeaponAvailable TRUE
+		mySecondaryWeaponId Weapon4
+		myPrimaryTechniqueAvailable TRUE
+		mySecondaryTechniqueAvailable TRUE
+	}
+	mySkillTreeSetup
+	{
+		SkillState PVP_DM_SKL_Mario_DashDamage
+		{
+			mySkillBonusID < uid=D6AA725759D4B19300000010DA0BF3F0 > = PVP_DM_SKL_Mario_DashDamage
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_TeamJumpCleanse
+		{
+			mySkillBonusID < uid=D6AA725759D4B23C00000011DFAED516 > = PVP_DM_SKL_Mario_TeamJumpCleanse
+			mySkillLevel 0
+		}
+		SkillState PVP_DM_SKL_Mario_StompRadius
+		{
+			mySkillBonusID < uid=D6AA725759D4B23C00000012654C6D87 > = PVP_DM_SKL_Mario_StompRadius
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_StompDamage
+		{
+			mySkillBonusID < uid=D6AA725759D4B23C0000001355EFEF29 > = PVP_DM_SKL_Mario_StompDamage
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_ReactNumber
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB00000014D0FE0217 > = PVP_DM_SKL_Mario_ReactNumber
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_ReactDamage
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB0000001579517B7B > = PVP_DM_SKL_Mario_ReactDamage
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_ReactCooldown
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB000000167F770183 > = PVP_DM_SKL_Mario_ReactCooldown
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_EmpowerCooldown
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB0000001755CB3FE3 > = PVP_DM_SKL_Mario_EmpowerCooldown
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_EmpowerRadius
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB00000018750561F7 > = PVP_DM_SKL_Mario_EmpowerRadius
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_Mario_EmpowerIncrement
+		{
+			mySkillBonusID < uid=D6AA725759D4B3DB00000019877D468F > = PVP_DM_SKL_Mario_EmpowerIncrement
+			mySkillLevel 3
+		}
+		SkillState SecondaryWeaponUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74CEE00000014421668AC > = PVP_DM_SKL_Mario_Melee
+			mySkillLevel 0
+		}
+		SkillState SecondaryTechniqueUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74CEE0000001596162BC1 > = PVP_DM_SKL_Mario_Empower
+			mySkillLevel 0
+		}
+	}
+}
+
 FighterPreset PVP_DM_RabbidsLuigi_Preset1 < uid=D6AA725759D62DFA00000010EA102A5E >
 {
 	myDescriptor = Descriptor_PVP_DM_RabbidsLuigi_Preset1
@@ -4398,6 +4477,7 @@ GameModeFighterPresets GameMode_Deathmatch
 			FighterPreset Preset4 < uid=D6AA725759D355D200000530E5C2DC6E > = PVP_DM_Mario_Preset4
 			FighterPreset Preset5 < uid=D6AA725759D355D20000053129BDE038 > = PVP_DM_Mario_Preset5
 			FighterPreset Preset6 < uid=D6AA725759D355D200000532075BDE7C > = PVP_DM_Mario_Preset6
+			FighterPreset Preset7 < uid=D7AA725759D62DFA0000000001000007 > = PVP_DM_Mario_Sticky
 		}
 		FighterPresetsList PVP_DM_RabbidsPeach
 		{

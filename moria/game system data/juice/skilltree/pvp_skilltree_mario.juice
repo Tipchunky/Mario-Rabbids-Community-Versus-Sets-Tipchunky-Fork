@@ -241,6 +241,13 @@ Skill PVP_DM_SKL_Mario_DashDamage < uid=D6AA725759CD2BFB000001330AAAD27B >
 				myDashDamageAbsolute 40
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myDashDamageAbsolute 30
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_DashDamage
 	{
@@ -293,6 +300,13 @@ Skill PVP_DM_SKL_Mario_StompRadius < uid=D6AA725759CD2BFB00000137DF3AE992 >
 				myStompRadius 13
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myStompRadius 13
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_StompRadius
 	{
@@ -326,6 +340,13 @@ Skill PVP_DM_SKL_Mario_StompDamage < uid=D6AA725759CD2BFB0000013988B238A9 >
 				myStompDamageAbsolute 60
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myStompDamageAbsolute 40
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_StompDamage
 	{
@@ -355,6 +376,14 @@ Skill PVP_DM_SKL_Mario_Elevation < uid=D6AA725759CD2BFB0000013BFDBAB9EE >
 			}
 		}
 		Step Preset3
+		{
+			myBonus
+			{
+				myElevationFactorActive TRUE
+				myElevationFactor 0
+			}
+		}
+		Step Sticky
 		{
 			myBonus
 			{
@@ -426,6 +455,13 @@ Skill PVP_DM_SKL_Mario_ReactNumber < uid=D6AA725759CD2BFB0000013F348109C0 >
 				myPrimary_TechniqueNumber 0
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myPrimary_TechniqueNumber 0
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_Mario_ReactNumber
 	{
@@ -457,6 +493,13 @@ Skill PVP_DM_SKL_Mario_ReactDamage < uid=D6AA725759CD2BFB000001415D6DA046 >
 			myBonus
 			{
 				myPrimary_TechniqueDamage 0.5
+			}
+		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myPrimary_TechniqueDamage 1.3
 			}
 		}
 	}
@@ -492,6 +535,13 @@ Skill PVP_DM_SKL_Mario_ReactCooldown < uid=D6AA725759CD2BFB0000014398084097 >
 				myPrimary_TechniqueCooldown 3
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myPrimary_TechniqueCooldown 2
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_Mario_ReactCooldown
 	{
@@ -525,6 +575,13 @@ Skill PVP_DM_SKL_Mario_EmpowerCooldown < uid=D6AA725759CD2BFB00000145EF40BB01 >
 				mySecondary_TechniqueCooldown 3
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				mySecondary_TechniqueCooldown 1
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_Mario_EmpowerCooldown
 	{
@@ -552,6 +609,13 @@ Skill PVP_DM_SKL_Mario_EmpowerRadius < uid=D6AA725759CD2BFB000001474D83B737 >
 			}
 		}
 		Step Preset3
+		{
+			myBonus
+			{
+				mySecondary_TechniqueRadius 21
+			}
+		}
+		Step Sticky
 		{
 			myBonus
 			{
@@ -591,6 +655,12 @@ Skill PVP_DM_SKL_Mario_EmpowerIncrement < uid=D6AA725759CD2BFB00000149823281F6 >
 				myEmpowerDamage 0.3
 			}
 		}
+		Step Sticky
+		{
+			myBonus
+			{
+				myEmpowerDamage 0.5
+			
 	}
 	myDescriptor : Descriptor_SKL_Mario_EmpowerIncrement
 	{
