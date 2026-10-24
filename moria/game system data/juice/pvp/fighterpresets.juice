@@ -488,8 +488,8 @@ FighterPreset PVP_DM_Mario_Sticky < uid=D7AA725759D62DFA0000000001000007 >
 	myDescriptor = Descriptor_PVP_DM_Mario_Sticky
 	myFighterSetup < uid=D7AA725759E8BCDD0000000001000007 >
 	{
-		myRank Rank6
-		myMoveAbility Core4
+		myRank Rank0
+		myMoveAbility Core1
 		myPrimaryWeaponAvailable TRUE
 		myPrimaryWeaponId Weapon4
 		mySecondaryWeaponAvailable TRUE
@@ -502,7 +502,7 @@ FighterPreset PVP_DM_Mario_Sticky < uid=D7AA725759D62DFA0000000001000007 >
 		SkillState PVP_DM_SKL_Mario_DashDamage
 		{
 			mySkillBonusID < uid=D6AA725759D4B19300000010DA0BF3F0 > = PVP_DM_SKL_Mario_DashDamage
-			mySkillLevel 3
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_Mario_TeamJumpCleanse
 		{
@@ -512,22 +512,22 @@ FighterPreset PVP_DM_Mario_Sticky < uid=D7AA725759D62DFA0000000001000007 >
 		SkillState PVP_DM_SKL_Mario_StompRadius
 		{
 			mySkillBonusID < uid=D6AA725759D4B23C00000012654C6D87 > = PVP_DM_SKL_Mario_StompRadius
-			mySkillLevel 3
+			mySkillLevel 2
 		}
 		SkillState PVP_DM_SKL_Mario_StompDamage
 		{
 			mySkillBonusID < uid=D6AA725759D4B23C0000001355EFEF29 > = PVP_DM_SKL_Mario_StompDamage
-			mySkillLevel 3
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_Mario_ReactNumber
 		{
 			mySkillBonusID < uid=D6AA725759D4B3DB00000014D0FE0217 > = PVP_DM_SKL_Mario_ReactNumber
-			mySkillLevel 3
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_Mario_ReactDamage
 		{
 			mySkillBonusID < uid=D6AA725759D4B3DB0000001579517B7B > = PVP_DM_SKL_Mario_ReactDamage
-			mySkillLevel 3
+			mySkillLevel 1
 		}
 		SkillState PVP_DM_SKL_Mario_ReactCooldown
 		{
@@ -542,12 +542,12 @@ FighterPreset PVP_DM_Mario_Sticky < uid=D7AA725759D62DFA0000000001000007 >
 		SkillState PVP_DM_SKL_Mario_EmpowerRadius
 		{
 			mySkillBonusID < uid=D6AA725759D4B3DB00000018750561F7 > = PVP_DM_SKL_Mario_EmpowerRadius
-			mySkillLevel 3
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_Mario_EmpowerIncrement
 		{
 			mySkillBonusID < uid=D6AA725759D4B3DB00000019877D468F > = PVP_DM_SKL_Mario_EmpowerIncrement
-			mySkillLevel 3
+			mySkillLevel 1
 		}
 		SkillState SecondaryWeaponUnlock
 		{
