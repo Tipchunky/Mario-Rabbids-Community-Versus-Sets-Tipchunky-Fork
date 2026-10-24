@@ -47,7 +47,7 @@ InfoCardSlotComparisonList ComparisonList_PVP_DM_Mario_Sticky
 	ComparisonValue PRIMARYWEAPON Same
 	ComparisonValue SECONDARYWEAPON Same
 	ComparisonValue PRIMARYWEAPONSIDEEFFECT Same
-	ComparisonValue SECONDARYWEAPONSIDEEFFECT Worse
+	ComparisonValue SECONDARYWEAPONSIDEEFFECT Worst
 	ComparisonValue PRIMARYTECHNIQUE Better
 	ComparisonValue SECONDARYTECHNIQUE Better
 }
