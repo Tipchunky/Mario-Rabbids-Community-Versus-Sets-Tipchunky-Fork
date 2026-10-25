@@ -52,5 +52,11 @@ ListMoveAbilitiesSettings PVP_DM_MoveAbilities_RabbidsMario
 		myDescriptor = Descriptor_ExplosiveDash
 		myMoveAbilitiesParameters < uid=8297F7EA59DC87D400000018409721CD > = PVP_DM_MoveAbilitiesParameters
 	}
+	MoveAbilitiesSettings MoveAbilities_Preset_CounterBlower < uid=8297F7EA59DC87D4000000178F8F24AE >
+	{
+		myMoveAbilityCategory Dash
+		mySpecializationType Dash
+		myDescriptor = Descriptor_Dash
+		myMoveAbilitiesParameters < uid=8297F7EA59DC87D400000018409721CD > = PVP_DM_MoveAbilitiesParameters_CounterBlower
+	}
 }
-
