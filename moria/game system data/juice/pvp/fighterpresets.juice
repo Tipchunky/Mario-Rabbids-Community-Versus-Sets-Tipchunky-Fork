@@ -2725,7 +2725,7 @@ FighterPreset PVP_DM_RabbidsMario_Preset6 < uid=D7AA725759D62DFA0000000005000006
 
 FighterPreset PVP_DM_RabbidsMario_Preset_CounterBlower < uid=D7AA725759D62DFA0000000005000007 >
 {
-	myDescriptor = Descriptor_PVP_DM_RabbidsMario_Preset6
+	myDescriptor = Descriptor_PVP_DM_RabbidsMario_Preset_CounterBlower
 	myFighterSetup < uid=D6AA725759D62DFA000000275B9586AF >
 	{
 		myRank Rank3
@@ -2757,7 +2757,7 @@ FighterPreset PVP_DM_RabbidsMario_Preset_CounterBlower < uid=D7AA725759D62DFA000
 		SkillState PVP_DM_SKL_RabbidsMario_ShieldWeaponDamageReduction
 		{
 			mySkillBonusID < uid=8297F7EA59D65A72000000707F3E1E5B > = PVP_DM_SKL_RabbidsMario_ShieldWeaponDamageReduction
-			mySkillLevel 1
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_RabbidsMario_ShieldMoveDamageReduction
 		{
@@ -2767,7 +2767,7 @@ FighterPreset PVP_DM_RabbidsMario_Preset_CounterBlower < uid=D7AA725759D62DFA000
 		SkillState PVP_DM_SKL_RabbidsMario_ShieldCooldown
 		{
 			mySkillBonusID < uid=8297F7EA59D65A7200000072C3A52E1B > = PVP_DM_SKL_RabbidsMario_ShieldCooldown
-			mySkillLevel 1
+			mySkillLevel 0
 		}
 		SkillState PVP_DM_SKL_RabbidsMario_MagnetDanceCooldown
 		{
