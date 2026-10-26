@@ -95,7 +95,7 @@ ListWeaponSettings PVP_DM_RabbidsMario_Shotgun
 		myBulletParameters < uid=8297F7EA59D6439900000031E5E804A1 > = BulletParameters_ShotgunCone
 		myVersionInfoConditions < uid=8297F7EA59D643990000003203B4882B > = VER_Retail
 	}
-	WeaponSettings RabbidsMario_Shotgun_Preset4 //Counter Blower
+	WeaponSettings RabbidsMario_Shotgun_Preset4 	//Counter Blower
 	{
 		myGraphObject "moria/graph objects/weapon/wpn_shotgun_rabbidmario_11.mgraphobject"
 		myEquipmentDescriptor = Descriptor_RabbidsMario_Shotgun_11
@@ -114,7 +114,7 @@ ListWeaponSettings PVP_DM_RabbidsMario_Shotgun
 			myDamageMax 5
 			myHitChance 70.0
 			mySuperChance 30.0
-			mySuperDamageMod 0.2
+			mySuperDamageMod 0.24
 		}
 		myBonus1 = SideEffect_Vampire
 		myBonus2 = NULLREFERENCE
