@@ -98,7 +98,7 @@ ListWeaponSettings PVP_DM_RabbidsMario_MeleeWeapons
 		myBulletParameters < uid=8297F7EA59D6442C00000039A6031544 > = BulletParameters_MeleeWeapon
 		myVersionInfoConditions < uid=8297F7EA59D6442C0000003A6C3BE391 > = VER_Retail
 	}
-	WeaponSettings RabbidsMario_MeleeWeapon_Preset4 	//Counter Blower
+	WeaponSettings RabbidsMario_MeleeWeapon_Preset4 	// Counter Blower
 	{
 		myGraphObject "moria/graph objects/weapon/wpn_melee_rabbidmario_04.mgraphobject"
 		myEquipmentDescriptor = Descriptor_RabbidsMario_Melee_4
