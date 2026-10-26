@@ -260,7 +260,7 @@ InfoCardSlotComparisonList ComparisonList_PVP_DM_RabbidsMario_Preset3
 	ComparisonValue SECONDARYTECHNIQUE Worst
 }
 
-InfoCardSlotComparisonList ComparisonList_PVP_DM_RabbidsMario_CounterBlower
+InfoCardSlotComparisonList ComparisonList_PVP_DM_RabbidsMario_Preset_CounterBlower
 {
 	ComparisonValue HP Worst
 	ComparisonValue DASH Worst
