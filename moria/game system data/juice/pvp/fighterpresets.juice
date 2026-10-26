@@ -2749,11 +2749,6 @@ FighterPreset PVP_DM_RabbidsMario_Preset_CounterBlower < uid=D7AA725759D62DFA000
 			mySkillBonusID < uid=8297F7EA59D65A720000006D227D5317 > = PVP_DM_SKL_RabbidsMario_DashNumber
 			mySkillLevel 2
 		}
-		SkillState PVP_DM_SKL_RabbidsMario_ExplosiveDashRadius
-		{
-			mySkillBonusID < uid=8297F7EA59D65A720000006E34E8055C > = PVP_DM_SKL_RabbidsMario_ExplosiveDashRadius
-			mySkillLevel 3
-		}
 		SkillState PVP_DM_SKL_RabbidsMario_TeamJumpCleanse
 		{
 			mySkillBonusID < uid=8297F7EA59D65A720000006FE372A82C > = PVP_DM_SKL_RabbidsMario_TeamJumpCleanse
@@ -4593,6 +4588,7 @@ GameModeFighterPresets GameMode_Deathmatch
 			FighterPreset Preset4 < uid=D6AA725759D62DFA000000438FB70D15 > = PVP_DM_RabbidsMario_Preset4
 			FighterPreset Preset5 < uid=D6AA725759D62DFA00000044A9CDD482 > = PVP_DM_RabbidsMario_Preset5
 			FighterPreset Preset6 < uid=D6AA725759D62DFA00000045A1C11E9D > = PVP_DM_RabbidsMario_Preset6
+			FighterPreset Preset7 < uid=D6AA725759D62DFA00000045A1C11E9D > = PVP_DM_RabbidsMario_Preset_CounterBlower
 		}
 		FighterPresetsList PVP_DM_Peach
 		{
