@@ -54,9 +54,9 @@ ListMoveAbilitiesSettings PVP_DM_MoveAbilities_RabbidsMario
 	}
 	MoveAbilitiesSettings MoveAbilities_Preset4 < uid=8297F7EA59DC87D4000000178F8F24AE >
 	{
-		myMoveAbilityCategory Dash
+		myMoveAbilityCategory SimpleDash
 		mySpecializationType Dash
-		myDescriptor = Descriptor_Dash
+		myDescriptor = Descriptor_TeamJump
 		myMoveAbilitiesParameters < uid=8297F7EA59DC87D400000018409721CD > = PVP_DM_MoveAbilitiesParameters_CounterBlower
 	}
 }
