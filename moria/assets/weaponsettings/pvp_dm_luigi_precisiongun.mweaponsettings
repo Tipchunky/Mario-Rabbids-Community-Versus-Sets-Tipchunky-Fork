@@ -185,7 +185,7 @@ ListWeaponSettings PVP_DM_Luigi_PrecisionGuns
 		myVersionInfoConditions < uid=8297F7EA59D63FA70000002256D20C72 > = VER_Retail
 	}
 
-	WeaponSettings Luigi_PrecisionGun_Preset7
+	WeaponSettings Luigi_PrecisionGun_Preset7		// Tech Demo
 	{
 		myGraphObject "moria/graph objects/weapon/wpn_grenade_peach_09.mgraphobject"
 		myEquipmentDescriptor = Descriptor_Peach_Grenade_10
