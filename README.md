@@ -4,8 +4,6 @@ A community-made mod for **Mario + Rabbids Kingdom Battle** that lets us create,
 
 You don't need any programming knowledge to contribute. If you have ideas for new sets or want to improve existing ones, you're welcome to help!
 
-For inspiration, you can look at detailed descriptions of the existing custom sets here: [Community-made Versus Sets](https://docs.google.com/document/d/1bF_FwoesLade4LztuMCDfPS6zpeBIai24m1qodl1tW8)
-
 ## How to make custom Versus sets
 
 You can help by creating new versus sets, improving existing ones, or even by simply sharing your ideas on the [Mario+Rabbids Discord Server](https://discord.gg/TG4vxzkBG).
