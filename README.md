@@ -72,20 +72,6 @@ Follow the repacker's instructions to generate the modified files.
 Place the modified files in your game's mod folder. 
 **It must be within the same folders in the same order as the original.**
 
-Your folder structure should look like this:
-```text
-romfs/
-└── moria/
-    └── sdf/
-        └── nx/
-            └── data/
-                ├── sdf.toc
-                ├── A-0016
-                └── A-0018
-```
-
-You will need to create any missing folders yourself.
-
 **If you're using an emulator:**
 
 1. Right-click Mario + Rabbids Kingdom Battle in your emulator.
@@ -97,19 +83,24 @@ You will need to create any missing folders yourself.
 Place the `romfs` folder inside:
 
 ```text
-atmosphere/contents/010067300059A000/
+atmosphere/contents/010067300059A000/[name of the mod]
 ```
 
-The resulting structure should be:
+In both cases the resulting structure should be:
 
 ```text
-atmosphere/contents/010067300059A000/
+.../010067300059A000/[name of the mod]
 └── romfs/
     └── moria/
         └── sdf/
             └── nx/
                 └── data/
+                    ├── sdf.toc
+                    ├── A-0016
+                    └── A-0018
 ```
+
+You will need to create any missing folders yourself.
 
 
 ### 5. Unlock the custom sets
