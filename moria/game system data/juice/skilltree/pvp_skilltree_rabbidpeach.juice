@@ -472,6 +472,13 @@ Skill PVP_DM_SKL_RabbidsPeach_HealAllCooldown < uid=8297F7EA59D4F83E00000604D47E
 				mySecondary_TechniqueCooldown 3
 			}
 		}
+		Step Preset4
+		{
+			myBonus
+			{
+				mySecondary_TechniqueCooldown 9
+			}
+		}
 	}
 	myDescriptor : Descriptor_SKL_RabbidPeach_HealAllCooldown
 	{
@@ -536,6 +543,13 @@ Skill PVP_DM_SKL_RabbidsPeach_HealAllPercentage < uid=8297F7EA59D4F83E0000060814
 			myBonus
 			{
 				myHealAllHp 0.1
+			}
+		}
+		Step Preset4
+		{
+			myBonus
+			{
+				myHealAllHp 0.9
 			}
 		}
 	}
