@@ -30,5 +30,8 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Deployable_Weapons
 	{
 		myWeaponCategory DeployableDynamite
 	}
+	WeaponSettings Deployable_Necromancer : RabbidsPeach_Deployable_Necromancer
+	{
+		myWeaponCategory DeployableDynamite
+	}
 }
-
