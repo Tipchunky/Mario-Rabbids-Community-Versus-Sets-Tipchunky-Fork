@@ -213,6 +213,35 @@ WeaponSettings RabbidsPeach_Deployable_Preset7
 	myVersionInfoConditions < uid=8297F7EA59D63B9E0000001A176B206A > = VER_Retail
 }
 
+WeaponSettings RabbidsPeach_Deployable_Necromancer
+{
+	myGraphObject "moria/graph objects/weapon/wpn_deployables_luigi_3.mgraphobject"
+	myEquipmentDescriptor = Descriptor_Luigi_Deployable_3
+	myWeaponCategory Deployable
+	myUnlockState Owned
+	myUnlockDescriptor = NULLREFERENCE
+	myPrice
+	{
+		myCurrencyAmount 0
+	}
+	myAttackLevels = AttackLevels_Deployable
+	myAttackParameters < uid=8297F7EA59D63B9E0000001700C265DB > : AttackParameters_Deployable
+	{
+		myDamageBase 40
+		myDamageMin -5
+		myDamageMax 5
+		myHitChance 60.0
+		mySuperChance 40.0
+		mySuperDamageMod 0.2
+	}
+	myBonus1 = SideEffect_Ink
+	myBonus2 = NULLREFERENCE
+	myBonus3 = NULLREFERENCE
+	myAdvantage < uid=8297F7EA59D63B9E00000018F1ECD524 > = NULLREFERENCE
+	myBulletParameters < uid=8297F7EA59D63B9E000000190E9F2E9D > = PVP_DM_BulletParameters_Deployable_Luigi
+	myVersionInfoConditions < uid=8297F7EA59D63B9E0000001A176B206A > = VER_Retail
+}
+
 ListWeaponSettings PVP_DM_RabbidsPeach_Deployables
 {
 	WeaponSettings RabbidsPeach_Deployable_Preset1 = RabbidsPeach_Deployable_Preset1
@@ -222,5 +251,5 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Deployables
 	WeaponSettings RabbidsPeach_Deployable_Preset2 = RabbidsPeach_Deployable_Preset5
 	WeaponSettings RabbidsPeach_Deployable_Preset3 = RabbidsPeach_Deployable_Preset6
 	WeaponSettings RabbidsPeach_Deployable_Preset7 = RabbidsPeach_Deployable_Preset7
+	WeaponSettings RabbidsPeach_Deployable_Necromancer = RabbidsPeach_Deployable_Necromancer
 }
-
