@@ -17,7 +17,7 @@ RanksParameters PVP_DM_Rank_Preset3 < uid=8297F7EA59D4F4E400000571C90A7607 >
 
 RanksParameters PVP_DM_Rank_Necromancer < uid=8297F7EA59D4F4E400000571C90A7607 >
 {
-	myHealthPoints 120
+	myHealthPoints 130
 }
 
 Ranks PVP_DM_Ranks_RabbidsPeach
