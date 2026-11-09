@@ -1810,7 +1810,7 @@ FighterPreset PVP_DM_RabbidsPeach_Necromancer < uid=D7AA725759D62DFA000000000200
 		SkillState PVP_DM_SKL_RabbidsPeach_DashDamage
 		{
 			mySkillBonusID < uid=8297F7EA59D6592900000039945D2C5D > = PVP_DM_SKL_RabbidsPeach_DashDamage
-			mySkillLevel 2
+			mySkillLevel 1
 		}
 		SkillState PVP_DM_SKL_RabbidsPeach_DashNumber
 		{
