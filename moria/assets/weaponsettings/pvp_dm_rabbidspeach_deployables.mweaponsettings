@@ -253,3 +253,4 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Deployables
 	WeaponSettings RabbidsPeach_Deployable_Preset7 = RabbidsPeach_Deployable_Preset7
 	WeaponSettings RabbidsPeach_Deployable_Preset8 = RabbidsPeach_Deployable_Necromancer
 }
+
