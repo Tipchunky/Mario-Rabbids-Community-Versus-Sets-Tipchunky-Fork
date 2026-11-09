@@ -238,7 +238,7 @@ WeaponSettings RabbidsPeach_Deployable_Necromancer
 	myBonus2 = NULLREFERENCE
 	myBonus3 = NULLREFERENCE
 	myAdvantage < uid=8297F7EA59D63B9E00000018F1ECD524 > = NULLREFERENCE
-	myBulletParameters < uid=8297F7EA59D63B9E000000190E9F2E9D > = PVP_DM_BulletParameters_Deployable_Luigi
+	myBulletParameters < uid=8297F7EA59D63B9E000000190E9F2E9D > = PVP_DM_BulletParameters_Deployable_RabbidsPeach
 	myVersionInfoConditions < uid=8297F7EA59D63B9E0000001A176B206A > = VER_Retail
 }
 
