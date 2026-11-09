@@ -1797,11 +1797,11 @@ FighterPreset PVP_DM_RabbidsPeach_Necromancer < uid=D7AA725759D62DFA000000000200
 	myFighterSetup < uid=D6AA725759D62DFA0000001B83360521 >
 	{
 		myRank Rank3
-		myMoveAbility Core4
+		myMoveAbility Core1
 		myPrimaryWeaponAvailable TRUE
-		myPrimaryWeaponId Weapon4
+		myPrimaryWeaponId Weapon8
 		mySecondaryWeaponAvailable TRUE
-		mySecondaryWeaponId Weapon4
+		mySecondaryWeaponId Weapon8
 		myPrimaryTechniqueAvailable TRUE
 		mySecondaryTechniqueAvailable TRUE
 	}
