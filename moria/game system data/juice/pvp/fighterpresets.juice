@@ -1791,6 +1791,80 @@ FighterPreset PVP_DM_RabbidsPeach_Preset7 < uid=D7AA725759D62DFA0000000002000007
 	}
 }
 
+FighterPreset PVP_DM_RabbidsPeach_Necromancer < uid=D7AA725759D62DFA0000000002000008 >
+{
+	myDescriptor = Descriptor_PVP_DM_RabbidsPeach_Necromancer
+	myFighterSetup < uid=D6AA725759D62DFA0000001B83360521 >
+	{
+		myRank Rank3
+		myMoveAbility Core1
+		myPrimaryWeaponAvailable TRUE
+		myPrimaryWeaponId Weapon8
+		mySecondaryWeaponAvailable TRUE
+		mySecondaryWeaponId Weapon8
+		myPrimaryTechniqueAvailable TRUE
+		mySecondaryTechniqueAvailable TRUE
+	}
+	mySkillTreeSetup
+	{
+		SkillState PVP_DM_SKL_RabbidsPeach_DashDamage
+		{
+			mySkillBonusID < uid=8297F7EA59D6592900000039945D2C5D > = PVP_DM_SKL_RabbidsPeach_DashDamage
+			mySkillLevel 1
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_DashNumber
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003A1C779233 > = PVP_DM_SKL_RabbidsPeach_DashNumber
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_TeamJumpCleanse
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003BD2CED0A6 > = PVP_DM_SKL_RabbidsPeach_TeamJumpCleanse
+			mySkillLevel 0
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_ShieldWeaponDamageReduction
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003C7D4D0E72 > = PVP_DM_SKL_RabbidsPeach_ShieldWeaponDamageReduction
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_ShieldMoveDamageReduction
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003D000FFA42 > = PVP_DM_SKL_RabbidsPeach_ShieldMoveDamageReduction
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_ShieldCooldown
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003EA049167A > = PVP_DM_SKL_RabbidsPeach_ShieldCooldown
+			mySkillLevel 1
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_HealAllCooldown
+		{
+			mySkillBonusID < uid=8297F7EA59D659290000003F04A6A935 > = PVP_DM_SKL_RabbidsPeach_HealAllCooldown
+			mySkillLevel 3
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_HealAllRadius
+		{
+			mySkillBonusID < uid=8297F7EA59D6592900000040118D094D > = PVP_DM_SKL_RabbidsPeach_HealAllRadius
+			mySkillLevel 2
+		}
+		SkillState PVP_DM_SKL_RabbidsPeach_HealAllPercentage
+		{
+			mySkillBonusID < uid=8297F7EA59D65929000000416E2F3CD4 > = PVP_DM_SKL_RabbidsPeach_HealAllPercentage
+			mySkillLevel 3
+		}
+		SkillState SecondaryWeaponUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74E3F00000020E646F3E2 > = PVP_DM_SKL_RabbidsPeach_Deployable
+			mySkillLevel 0
+		}
+		SkillState SecondaryTechniqueUnlock
+		{
+			mySkillBonusID < uid=D6AA725759D74E3F000000210299BA6E > = PVP_DM_SKL_RabbidsPeach_HealAll
+			mySkillLevel 0
+		}
+	}
+}
+
 FighterPreset PVP_DM_Luigi_Preset1 < uid=D6AA725759D62DFA0000001CF07CDB93 >
 {
 	myDescriptor = Descriptor_PVP_DM_Luigi_Preset1
@@ -4488,6 +4562,7 @@ GameModeFighterPresets GameMode_Deathmatch
 			FighterPreset Preset5 < uid=D6AA725759D62DFA0000003E7AAC4DB6 > = PVP_DM_RabbidsPeach_Preset5
 			FighterPreset Preset6 < uid=D6AA725759D62DFA0000003F59A3E20A > = PVP_DM_RabbidsPeach_Preset6
 			FighterPreset Preset7 < uid=D6AA725759D62DFA0000003F59A3E20A > = PVP_DM_RabbidsPeach_Preset7
+			FighterPreset Preset8 < uid=D6AA725759D62DFA0000003F59A3E20A > = PVP_DM_RabbidsPeach_Necromancer
 		}
 		FighterPresetsList PVP_DM_RabbidsLuigi
 		{

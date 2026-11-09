@@ -207,5 +207,33 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Lightguns
 		myBulletParameters < uid=8297F7EA59D63B3E000000116C8C746D > = BulletParameters_Lightgun
 		myVersionInfoConditions < uid=8297F7EA59D63B3E00000012136677CC > = VER_Retail
 	}
+	WeaponSettings RabbidsPeach_Lightgun_Preset8
+	{
+		myGraphObject "moria/graph objects/weapon/wpn_lightgun_rabbidpeach_16.mgraphobject"
+		myEquipmentDescriptor = Descriptor_RabbidsPeach_Lightgun_16
+		myWeaponCategory Lightgun
+		myUnlockState Owned
+		myUnlockDescriptor = NULLREFERENCE
+		myPrice
+		{
+			myCurrencyAmount 0
+		}
+		myAttackLevels = AttackLevels_Lightgun
+		myAttackParameters < uid=8297F7EA59D63B3E0000000F7703A704 > : AttackParameters_Lightgun
+		{
+			myDamageBase 35
+			myDamageMin -5
+			myDamageMax 5
+			myHitChance 60.0
+			mySuperChance 40.0
+			mySuperDamageMod 0.2
+		}
+		myBonus1 = SideEffect_Push
+		myBonus2 = NULLREFERENCE
+		myBonus3 = NULLREFERENCE
+		myAdvantage < uid=8297F7EA59D63B3E00000010A626E461 > = NULLREFERENCE
+		myBulletParameters < uid=8297F7EA59D63B3E000000116C8C746D > = BulletParameters_Lightgun
+		myVersionInfoConditions < uid=8297F7EA59D63B3E00000012136677CC > = VER_Retail
+	}
 }
 

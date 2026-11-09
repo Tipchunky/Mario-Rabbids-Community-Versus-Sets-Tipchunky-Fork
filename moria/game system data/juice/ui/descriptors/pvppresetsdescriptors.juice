@@ -162,6 +162,13 @@ PresetDescriptor Descriptor_PVP_DM_RabbidsPeach_Preset7
 	myInfoCardSlotComparison = ComparisonList_PVP_DM_RabbidsPeach_Preset7
 }
 
+PresetDescriptor Descriptor_PVP_DM_RabbidsPeach_Necromancer
+{
+	myName "contextComment = \"Descriptor_PVP_DM_RabbidsPeach_Necromancer_Name\", description = \"Descriptor_PVP_DM_RabbidsPeach_Necromancer_Name\", enabled = true, guid = #D7AA725759E8BCDD0000000002000008, lineVersion = 0, maxLength = 47, text = \"Descriptor_PVP_DM_RabbidsPeach_Necromancer_Name\""
+	myInfoCardLayout = Infocard_Layout_Preset
+	myInfoCardSlotComparison = ComparisonList_PVP_DM_RabbidsPeach_Necromancer
+}
+
 PresetDescriptor Descriptor_PVP_DM_Luigi_Preset1
 {
 	myName "contextComment = \"Descriptor_PVP_DM_Luigi_Preset1_Name\", description = \"Descriptor_PVP_DM_Luigi_Preset1_Name\", enabled = true, guid = #D6AA725759E8BCFB0000003AABC2FA98, lineVersion = 0, maxLength = 47, text = \"Descriptor_PVP_DM_Luigi_Preset1_Name\""
