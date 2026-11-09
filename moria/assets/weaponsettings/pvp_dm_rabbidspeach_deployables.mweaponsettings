@@ -215,7 +215,7 @@ WeaponSettings RabbidsPeach_Deployable_Preset7
 
 WeaponSettings RabbidsPeach_Deployable_Necromancer
 {
-	myGraphObject "moria/graph objects/weapon/wpn_deployables_luigi_03.mgraphobject"
+	myGraphObject "moria/graph objects/weapon/wpn_deployables_luigi_02.mgraphobject"
 	myEquipmentDescriptor = Descriptor_Luigi_Deployable_3
 	myWeaponCategory Deployable
 	myUnlockState Owned
@@ -251,5 +251,5 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Deployables
 	WeaponSettings RabbidsPeach_Deployable_Preset2 = RabbidsPeach_Deployable_Preset5
 	WeaponSettings RabbidsPeach_Deployable_Preset3 = RabbidsPeach_Deployable_Preset6
 	WeaponSettings RabbidsPeach_Deployable_Preset7 = RabbidsPeach_Deployable_Preset7
-	WeaponSettings RabbidsPeach_Deployable_Necromancer = RabbidsPeach_Deployable_Necromancer
+	WeaponSettings RabbidsPeach_Deployable_Preset8 = RabbidsPeach_Deployable_Necromancer
 }
