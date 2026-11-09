@@ -207,7 +207,7 @@ ListWeaponSettings PVP_DM_RabbidsPeach_Lightguns
 		myBulletParameters < uid=8297F7EA59D63B3E000000116C8C746D > = BulletParameters_Lightgun
 		myVersionInfoConditions < uid=8297F7EA59D63B3E00000012136677CC > = VER_Retail
 	}
-	WeaponSettings RabbidsPeach_Lightgun_Necromancer
+	WeaponSettings RabbidsPeach_Lightgun_Preset8
 	{
 		myGraphObject "moria/graph objects/weapon/wpn_lightgun_rabbidpeach_16.mgraphobject"
 		myEquipmentDescriptor = Descriptor_RabbidsPeach_Lightgun_16
